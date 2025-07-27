@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.container {
+  margin: 100px auto;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    'f f . g . . b b b b'
+    '. . . g . . . . . .'
+    'bb . . g . gg gg gg . ff'
+    'bb . . . . . . . . ff'
+    'bb . . . . . . . . .'
+    'bb . . . . fff . . . ggg'
+    '. . . . . fff . . . ggg'
+    'ffff ffff . . . . . . . ggg'
+    '. . . . . . . . . . '
+    '. . . . r r r r r r';
+  border: 1px solid #181717;
+}
+.f {
+  grid-area: f;
+  background-color: #53034d;
+}
+.ff {
+  grid-area: ff;
+  background-color: #53034d;
+}
+.fff {
+  grid-area: fff;
+  background-color: #53034d;
+}
+.ffff {
+  grid-area: ffff;
+  background-color: #53034d;
+}
+.g {
+  grid-area: g;
+  background-color: #2ab841;
+}
+.gg {
+  grid-area: gg;
+  background-color: #2ab841;
+}
+.ggg {
+  grid-area: ggg;
+  background-color: #2ab841;
+}
+.b {
+  grid-area: b;
+  background-color: #2606da;
+}
+.bb {
+  grid-area: bb;
+  background-color: #2606da;
+}
+.r {
+  grid-area: r;
+  background-color: #f81a0b;
+}
